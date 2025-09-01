@@ -1,3 +1,5 @@
 export default function Home() {
-  return <div>hello there</div>;
+  const test1 = 'hello there';
+  const test2 = 'we here to test';
+  return <div>{`${test1} brother ${test2}`}</div>;
 }
