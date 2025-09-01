@@ -1,4 +1,5 @@
 export default function Home() {
   const test = 'hi there';
-  return <div>{test}</div>;
+  const test2 = 'testing';
+  return <div>{`${test} and ${test2}`}</div>;
 }
